@@ -1,0 +1,125 @@
+.img{
+    height: 80vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.img_2{
+    height: 100px !important;
+    background-image:url(img/7.png); 
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.img-3 {
+    background-image: url(img/login-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 150vh !important;
+}
+.text{
+    width: 45px;
+    display: inline-block;
+}
+.text_2{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+.text_3{
+    width: 50px;
+    height: 25px;
+    display: inline-block;
+    border: 1px solid;
+    color: aliceblue;
+    
+}
+.text_4{
+    width: 90px;
+    height: 5px;
+    display: inline-block;
+    border: 1px solid;
+    color: red;
+    background-color: red;
+    
+}
+.text_5{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: -30px;
+    
+    
+}
+.ps{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.hv{
+    background-color: white;
+    transition: 1s all;
+}
+.hv:hover{
+    background-color: #ff6551;
+    cursor: pointer;
+    color: #fff;
+}
+.hv-2{
+    background-color: white;
+    transition: .1s all;
+}
+.hv-2:hover{
+    box-shadow: 20px 3px 10px 5px #f4f4f4;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.hv-3{
+    transition: .2s all;
+}
+.hv-3:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.df{
+    display: flex;
+    justify-content: center;
+}
+.fs{
+    font-size: 14px;
+}
+.bg{
+    border-radius: 15px;
+    background:rgba(255, 255, 255, 0.637);
+    padding: 0 !important;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label{
+    display: flex; 
+    justify-content: space-between;
+}
+@media (min-width: 0px){
+	.respon{
+		margin-left: 0px !important;
+	}
+}
+@media (min-width: 547px){
+	.respon{
+		margin-left: 50px !important;
+	}
+}
+@media (min-width: 647px){
+	.respon{
+		margin-left: 250px !important;
+	}
+}
+@media (min-width: 996px){
+	.respon{
+		margin-left: 200px !important;
+	}
+}
